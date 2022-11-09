@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-19T20:52:04 CST" name="Suite1" finished-at="2022-05-19T20:52:23 CST" duration-ms="18249">
+    <groups>
+    </groups>
+    <test started-at="2022-05-19T20:52:04 CST" name="Chrome" finished-at="2022-05-19T20:52:23 CST" duration-ms="18249">
+      <class name="org.selenium.pom.tests.NavigationTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.NavigationTest@1dde4cb2]" started-at="2022-05-19T20:52:17 CST" name="startDriver" finished-at="2022-05-19T20:52:18 CST" duration-ms="1255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="NavigateFromHomeToStoreUsingMainMenu()[pri:0, instance:org.selenium.pom.tests.NavigationTest@1dde4cb2]" started-at="2022-05-19T20:52:18 CST" name="NavigateFromHomeToStoreUsingMainMenu" finished-at="2022-05-19T20:52:20 CST" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateFromHomeToStoreUsingMainMenu -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.NavigationTest@1dde4cb2]" started-at="2022-05-19T20:52:20 CST" name="quitDriver" finished-at="2022-05-19T20:52:20 CST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.NavigationTest -->
+      <class name="org.selenium.pom.tests.SearchTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.SearchTest@7714e963]" started-at="2022-05-19T20:52:19 CST" name="startDriver" finished-at="2022-05-19T20:52:20 CST" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="searchWithPartialMatch()[pri:0, instance:org.selenium.pom.tests.SearchTest@7714e963]" started-at="2022-05-19T20:52:20 CST" name="searchWithPartialMatch" finished-at="2022-05-19T20:52:22 CST" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithPartialMatch -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.SearchTest@7714e963]" started-at="2022-05-19T20:52:22 CST" name="quitDriver" finished-at="2022-05-19T20:52:23 CST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.SearchTest -->
+      <class name="org.selenium.pom.tests.MyFirstTestCase">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@3f197a46]" started-at="2022-05-19T20:52:04 CST" name="startDriver" finished-at="2022-05-19T20:52:07 CST" duration-ms="2533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@3f197a46]" started-at="2022-05-19T20:52:04 CST" name="startDriver" finished-at="2022-05-19T20:52:07 CST" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="guestCheckOutUsingDirectBankTransfer()[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@3f197a46]" started-at="2022-05-19T20:52:07 CST" name="guestCheckOutUsingDirectBankTransfer" finished-at="2022-05-19T20:52:17 CST" duration-ms="9876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestCheckOutUsingDirectBankTransfer -->
+        <test-method signature="loginAndCheckOutUsingDirectBankTransfer()[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@3f197a46]" started-at="2022-05-19T20:52:07 CST" name="loginAndCheckOutUsingDirectBankTransfer" finished-at="2022-05-19T20:52:19 CST" duration-ms="11947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndCheckOutUsingDirectBankTransfer -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@3f197a46]" started-at="2022-05-19T20:52:17 CST" name="quitDriver" finished-at="2022-05-19T20:52:17 CST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@3f197a46]" started-at="2022-05-19T20:52:19 CST" name="quitDriver" finished-at="2022-05-19T20:52:19 CST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.MyFirstTestCase -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite1 -->
+</testng-results>
